@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.icom" type="image/x-icon">
+    <title>MGR - Opiniones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="arriba">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="actualmenteJugando.html" target="_blank">Actualmente jugando</a></li>
+                <li><a href="planesFuturo.html" target="_blank">Planes a futuro</a></li>
+                <li><a href="opiniones.html" target="_blank">Opiniones</a></li>
+            </ul>
+        </nav>
+        <h1>¿Qué juegos me recomiendas?</h1>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+            <label for="apellidoPaterno">Apellido Paterno: </label>
+            <input type="text" id="apellidoPaterno" placeholder="Ingresa tu apellido paterno" required>
+            <br>
+            <label for="apellidoMaterno">Apellido Materno: </label>
+            <input type="text" id="apellidoMaterno" placeholder="Ingresa tu apellido materno" required>
+            <br>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" placeholder="Ingresa tu correo electrónico" required>
+            <br>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais" required>
+                <option value="mexico">México</option>
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="peru">Perú</option>
+                <option value="chile">Chile</option>
+                <option value="espana">España</option>
+                <option value="brasil">Brasil</option>
+                <option value="ecuador">Ecuador</option>
+            </select>
+            <br>
+            <label for="nombreJuego" id="nombreJuego">Nombre del juego:</label>
+            <input type="text" id="nombreJuego" name="nombreJuego" placeholder="Ingresa el nombre del juego" required>
+            <br>
+            <label for="genero">Género del juego:</label>
+            <br><br>
+            <input type="radio" id="accion" name="genero" required><i>Acción</i>
+            <input type="radio" id="aventura" name="genero" required><i>Aventura</i>
+            <input type="radio" id="rpg" name="genero" required><i>RPG</i>
+            <input type="radio" id="deportes" name="genero" required><i>Deportes</i>
+            <input type="radio" id="estrategia" name="genero" required><i>Estrategia</i>
+            <input type="radio" id="simulacion" name="genero" required><i>Simulación</i>
+            <input type="radio" id="simulacion" name="genero" required><i>Simulación</i>
+            <input type="radio" id="otro" name="genero" required><i>Otro</i>
+            <br>
+            <br>
+            <label for="comentario">Tu comentario:</label>
+            <textarea name="comentario" id="comentario" placeholder="Ingresa tu comentario" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
